@@ -106,5 +106,6 @@ app.listen(PORT, () => {
     //track auth APIs
     console.log(`GitHub app: ${process.env.GITHUB_APP}`)
     console.log(`Google Dev console: ${process.env.CLASS_GOOGLE_DEV}`) //NEW
+    console.log(`Render dashboard: ${process.env.RENDER_DASHBOARD}`)
     console.log(`MongoDB connection loading...`) //NEW
 });
