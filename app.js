@@ -2,6 +2,8 @@ require('dotenv').config();
 require('./config/connection');
 require('./config/authStrategy'); //reactivate in auth unit
 
+//Hello World!
+
 //Packages
 const express = require("express");
 
